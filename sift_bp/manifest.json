@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Sift Portal Probe",
+    "description": "Prototype: play the note block melody next to a reinforced deepslate frame to light it.",
+    "uuid": "70cb6f73-174b-425b-b6bf-4bc1cccac19e",
+    "version": [
+      0,
+      2,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      50
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "f149f455-1a39-49bc-8b4f-80dcc336edde",
+      "version": [
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "0238d4d3-6341-41d5-a1ec-2bc2a66a5912",
+      "version": [
+        0,
+        2,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.10.0"
+    },
+    {
+      "uuid": "fa43a462-8555-42e7-9839-21e647bce9b4",
+      "version": [
+        0,
+        2,
+        0
+      ]
+    }
+  ]
+}

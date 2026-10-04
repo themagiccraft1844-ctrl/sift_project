@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Sift Portal Probe RP",
+    "description": "Textures and model for the Sift portal block.",
+    "uuid": "fa43a462-8555-42e7-9839-21e647bce9b4",
+    "version": [
+      0,
+      2,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      50
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "61b577c3-11ad-4650-a9a7-fcf380df7bf9",
+      "version": [
+        0,
+        2,
+        0
+      ]
+    }
+  ]
+}

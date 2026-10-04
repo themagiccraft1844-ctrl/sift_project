@@ -1,0 +1,14 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/sift_portal_l1",
+    "atlas_tile": "sift_portal_l1",
+    "ticks_per_frame": 12,
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/sift_portal_l2",
+    "atlas_tile": "sift_portal_l2",
+    "ticks_per_frame": 6,
+    "blend_frames": false
+  }
+]

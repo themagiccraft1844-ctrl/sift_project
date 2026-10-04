@@ -1,0 +1,17 @@
+{
+  "resource_pack_name": "sift",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "sift_portal_bg": {
+      "textures": "textures/blocks/sift_portal_bg"
+    },
+    "sift_portal_l1": {
+      "textures": "textures/blocks/sift_portal_l1"
+    },
+    "sift_portal_l2": {
+      "textures": "textures/blocks/sift_portal_l2"
+    }
+  }
+}

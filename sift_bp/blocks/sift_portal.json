@@ -1,0 +1,2390 @@
+{
+ "format_version": "1.21.100",
+ "minecraft:block": {
+  "description": {
+   "identifier": "sift:portal",
+   "menu_category": {
+    "category": "items"
+   },
+   "states": {
+    "sift:axis": [
+     "x",
+     "z"
+    ],
+    "sift:tu": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "sift:tv": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   }
+  },
+  "components": {
+   "minecraft:geometry": "geometry.sift_portal_x_0_0",
+   "minecraft:material_instances": {
+    "*": {
+     "texture": "sift_portal_bg",
+     "render_method": "alpha_test",
+     "ambient_occlusion": false,
+     "face_dimming": false
+    },
+    "bg": {
+     "texture": "sift_portal_bg",
+     "render_method": "alpha_test",
+     "ambient_occlusion": false,
+     "face_dimming": false
+    },
+    "l1": {
+     "texture": "sift_portal_l1",
+     "render_method": "alpha_test",
+     "ambient_occlusion": false,
+     "face_dimming": false
+    },
+    "l2": {
+     "texture": "sift_portal_l2",
+     "render_method": "alpha_test",
+     "ambient_occlusion": false,
+     "face_dimming": false
+    }
+   },
+   "minecraft:selection_box": {
+    "origin": [
+     -8,
+     0,
+     -4
+    ],
+    "size": [
+     16,
+     16,
+     8
+    ]
+   },
+   "minecraft:collision_box": false,
+   "minecraft:light_emission": 12,
+   "minecraft:light_dampening": 0,
+   "minecraft:map_color": "#61d4c7",
+   "minecraft:destructible_by_mining": false,
+   "minecraft:destructible_by_explosion": false
+  },
+  "permutations": [
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 0 && q.block_state('sift:tv') == 0",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_0_0",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 0 && q.block_state('sift:tv') == 1",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_0_1",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 0 && q.block_state('sift:tv') == 2",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_0_2",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 0 && q.block_state('sift:tv') == 3",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_0_3",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 0 && q.block_state('sift:tv') == 4",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_0_4",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 0 && q.block_state('sift:tv') == 5",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_0_5",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 0 && q.block_state('sift:tv') == 6",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_0_6",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 0 && q.block_state('sift:tv') == 7",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_0_7",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 1 && q.block_state('sift:tv') == 0",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_1_0",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 1 && q.block_state('sift:tv') == 1",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_1_1",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 1 && q.block_state('sift:tv') == 2",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_1_2",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 1 && q.block_state('sift:tv') == 3",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_1_3",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 1 && q.block_state('sift:tv') == 4",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_1_4",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 1 && q.block_state('sift:tv') == 5",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_1_5",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 1 && q.block_state('sift:tv') == 6",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_1_6",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 1 && q.block_state('sift:tv') == 7",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_1_7",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 2 && q.block_state('sift:tv') == 0",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_2_0",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 2 && q.block_state('sift:tv') == 1",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_2_1",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 2 && q.block_state('sift:tv') == 2",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_2_2",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 2 && q.block_state('sift:tv') == 3",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_2_3",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 2 && q.block_state('sift:tv') == 4",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_2_4",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 2 && q.block_state('sift:tv') == 5",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_2_5",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 2 && q.block_state('sift:tv') == 6",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_2_6",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 2 && q.block_state('sift:tv') == 7",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_2_7",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 3 && q.block_state('sift:tv') == 0",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_3_0",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 3 && q.block_state('sift:tv') == 1",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_3_1",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 3 && q.block_state('sift:tv') == 2",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_3_2",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 3 && q.block_state('sift:tv') == 3",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_3_3",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 3 && q.block_state('sift:tv') == 4",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_3_4",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 3 && q.block_state('sift:tv') == 5",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_3_5",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 3 && q.block_state('sift:tv') == 6",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_3_6",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 3 && q.block_state('sift:tv') == 7",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_3_7",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 4 && q.block_state('sift:tv') == 0",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_4_0",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 4 && q.block_state('sift:tv') == 1",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_4_1",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 4 && q.block_state('sift:tv') == 2",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_4_2",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 4 && q.block_state('sift:tv') == 3",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_4_3",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 4 && q.block_state('sift:tv') == 4",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_4_4",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 4 && q.block_state('sift:tv') == 5",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_4_5",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 4 && q.block_state('sift:tv') == 6",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_4_6",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 4 && q.block_state('sift:tv') == 7",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_4_7",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 5 && q.block_state('sift:tv') == 0",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_5_0",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 5 && q.block_state('sift:tv') == 1",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_5_1",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 5 && q.block_state('sift:tv') == 2",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_5_2",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 5 && q.block_state('sift:tv') == 3",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_5_3",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 5 && q.block_state('sift:tv') == 4",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_5_4",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 5 && q.block_state('sift:tv') == 5",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_5_5",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 5 && q.block_state('sift:tv') == 6",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_5_6",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 5 && q.block_state('sift:tv') == 7",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_5_7",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 6 && q.block_state('sift:tv') == 0",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_6_0",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 6 && q.block_state('sift:tv') == 1",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_6_1",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 6 && q.block_state('sift:tv') == 2",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_6_2",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 6 && q.block_state('sift:tv') == 3",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_6_3",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 6 && q.block_state('sift:tv') == 4",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_6_4",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 6 && q.block_state('sift:tv') == 5",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_6_5",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 6 && q.block_state('sift:tv') == 6",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_6_6",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 6 && q.block_state('sift:tv') == 7",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_6_7",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 7 && q.block_state('sift:tv') == 0",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_7_0",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 7 && q.block_state('sift:tv') == 1",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_7_1",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 7 && q.block_state('sift:tv') == 2",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_7_2",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 7 && q.block_state('sift:tv') == 3",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_7_3",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 7 && q.block_state('sift:tv') == 4",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_7_4",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 7 && q.block_state('sift:tv') == 5",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_7_5",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 7 && q.block_state('sift:tv') == 6",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_7_6",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'x' && q.block_state('sift:tu') == 7 && q.block_state('sift:tv') == 7",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_x_7_7",
+     "minecraft:selection_box": {
+      "origin": [
+       -8,
+       0,
+       -4
+      ],
+      "size": [
+       16,
+       16,
+       8
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 0 && q.block_state('sift:tv') == 0",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_0_0",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 0 && q.block_state('sift:tv') == 1",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_0_1",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 0 && q.block_state('sift:tv') == 2",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_0_2",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 0 && q.block_state('sift:tv') == 3",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_0_3",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 0 && q.block_state('sift:tv') == 4",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_0_4",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 0 && q.block_state('sift:tv') == 5",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_0_5",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 0 && q.block_state('sift:tv') == 6",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_0_6",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 0 && q.block_state('sift:tv') == 7",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_0_7",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 1 && q.block_state('sift:tv') == 0",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_1_0",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 1 && q.block_state('sift:tv') == 1",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_1_1",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 1 && q.block_state('sift:tv') == 2",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_1_2",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 1 && q.block_state('sift:tv') == 3",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_1_3",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 1 && q.block_state('sift:tv') == 4",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_1_4",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 1 && q.block_state('sift:tv') == 5",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_1_5",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 1 && q.block_state('sift:tv') == 6",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_1_6",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 1 && q.block_state('sift:tv') == 7",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_1_7",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 2 && q.block_state('sift:tv') == 0",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_2_0",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 2 && q.block_state('sift:tv') == 1",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_2_1",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 2 && q.block_state('sift:tv') == 2",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_2_2",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 2 && q.block_state('sift:tv') == 3",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_2_3",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 2 && q.block_state('sift:tv') == 4",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_2_4",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 2 && q.block_state('sift:tv') == 5",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_2_5",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 2 && q.block_state('sift:tv') == 6",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_2_6",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 2 && q.block_state('sift:tv') == 7",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_2_7",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 3 && q.block_state('sift:tv') == 0",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_3_0",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 3 && q.block_state('sift:tv') == 1",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_3_1",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 3 && q.block_state('sift:tv') == 2",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_3_2",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 3 && q.block_state('sift:tv') == 3",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_3_3",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 3 && q.block_state('sift:tv') == 4",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_3_4",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 3 && q.block_state('sift:tv') == 5",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_3_5",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 3 && q.block_state('sift:tv') == 6",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_3_6",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 3 && q.block_state('sift:tv') == 7",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_3_7",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 4 && q.block_state('sift:tv') == 0",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_4_0",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 4 && q.block_state('sift:tv') == 1",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_4_1",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 4 && q.block_state('sift:tv') == 2",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_4_2",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 4 && q.block_state('sift:tv') == 3",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_4_3",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 4 && q.block_state('sift:tv') == 4",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_4_4",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 4 && q.block_state('sift:tv') == 5",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_4_5",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 4 && q.block_state('sift:tv') == 6",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_4_6",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 4 && q.block_state('sift:tv') == 7",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_4_7",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 5 && q.block_state('sift:tv') == 0",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_5_0",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 5 && q.block_state('sift:tv') == 1",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_5_1",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 5 && q.block_state('sift:tv') == 2",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_5_2",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 5 && q.block_state('sift:tv') == 3",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_5_3",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 5 && q.block_state('sift:tv') == 4",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_5_4",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 5 && q.block_state('sift:tv') == 5",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_5_5",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 5 && q.block_state('sift:tv') == 6",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_5_6",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 5 && q.block_state('sift:tv') == 7",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_5_7",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 6 && q.block_state('sift:tv') == 0",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_6_0",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 6 && q.block_state('sift:tv') == 1",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_6_1",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 6 && q.block_state('sift:tv') == 2",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_6_2",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 6 && q.block_state('sift:tv') == 3",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_6_3",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 6 && q.block_state('sift:tv') == 4",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_6_4",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 6 && q.block_state('sift:tv') == 5",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_6_5",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 6 && q.block_state('sift:tv') == 6",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_6_6",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 6 && q.block_state('sift:tv') == 7",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_6_7",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 7 && q.block_state('sift:tv') == 0",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_7_0",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 7 && q.block_state('sift:tv') == 1",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_7_1",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 7 && q.block_state('sift:tv') == 2",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_7_2",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 7 && q.block_state('sift:tv') == 3",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_7_3",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 7 && q.block_state('sift:tv') == 4",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_7_4",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 7 && q.block_state('sift:tv') == 5",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_7_5",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 7 && q.block_state('sift:tv') == 6",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_7_6",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   },
+   {
+    "condition": "q.block_state('sift:axis') == 'z' && q.block_state('sift:tu') == 7 && q.block_state('sift:tv') == 7",
+    "components": {
+     "minecraft:geometry": "geometry.sift_portal_z_7_7",
+     "minecraft:selection_box": {
+      "origin": [
+       -4,
+       0,
+       -8
+      ],
+      "size": [
+       8,
+       16,
+       16
+      ]
+     }
+    }
+   }
+  ]
+ }
+}
